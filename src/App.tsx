@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import UserInfo from './components/UserInfo';
 import Navigation from './components/Navigation';
+import GoProContainer from './components/GoProContainer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <div className='flex flex-col gap-5'>
               <UserInfo />
               <Navigation page="dashboard" />
+              <GoProContainer />
             </div>
             <div></div>
           </div>
