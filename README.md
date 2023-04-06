@@ -9,7 +9,7 @@
 
 ### Guide to run in localhost
 - First, clone the repo ```https://github.com/SayanDeveloper/clamp-test.git```
-- Now install the dependencies using command ```yarn``
+- Now install the dependencies using command ```yarn```
 - Now you are ready to start the server using ```yarn start```
 
 Happy Coding :-)
