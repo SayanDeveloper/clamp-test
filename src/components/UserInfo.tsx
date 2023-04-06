@@ -3,7 +3,7 @@ import React from 'react'
 const UserInfo = () => {
   return (
     <div className='p-[38px] py-[30px] bg-[#2c2c2c] rounded-[32px]'>
-      <h2 className='text-[#e65c61] text-[20px] mb-1'>
+      <h2 className='text-[#e65c61] text-[20px] font-semibold mb-1'>
         Hira R.
       </h2>
       <h3 className='mb-[30px] text-[16px]'>
