@@ -2,7 +2,7 @@ import React from 'react'
 
 const GoProContainer = () => {
   return (
-    <div className='p-[38px] py-[30px] bg-[#3827b1] rounded-[32px] max-w-[220px]'>
+    <div className='p-[38px] py-[30px] bg-[#3827b1] rounded-[32px]  sm:max-w-[220px]'>
       <h2 className='text-[20px] mb-2'>Go Pro</h2>
       <h4 className='text-[13px]'>Upgrade your plan to get pro benefits</h4>
 

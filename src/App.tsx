@@ -16,8 +16,8 @@ function App() {
   return (
     <div className='bg-black min-h-[100vh] w-full text-white 2xl:scale-150 origin-top'>
       <section className='content-container max-w-[1040px] m-auto py-8'>
-        <div className='flex gap-8'>
-          <div className='flex gap-8'>
+        <div className='flex flex-col lg:flex-row gap-8 items-center'>
+          <div className='flex flex-col sm:flex-row gap-8'>
             <div className='flex flex-col gap-5'>
               <UserInfo />
               <Navigation page="dashboard" />
@@ -32,7 +32,7 @@ function App() {
               <Slots />
             </div>
           </div>
-          <div className='flex flex-col gap-5 w-[430px]'>
+          <div className='flex flex-col gap-5 w-[calc(100vw-40px)] sm:w-[582px] lg:w-[430px]'>
             <CommunityJoiner />
             <TxDetails />
             <div className='flex gap-[16px]'>
